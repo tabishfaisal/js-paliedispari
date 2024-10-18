@@ -18,4 +18,10 @@ const numeroComputer = numerRandom();
 console. log(numeroComputer);
 
 // Creo una Function per fare la somma dei numeri per stablire se sono "Pari" o "Dispari".
+function sumofNumbers(num1, num2){
+   const sum = num1 + num2;
+   return sum % 2 === 0;
+}
+const result = sumofNumbers(numeroComputer, numeroUtente);
+console. log(`La somma di ${numeroComputer} , ${numeroUtente} is ${result}`);
 
